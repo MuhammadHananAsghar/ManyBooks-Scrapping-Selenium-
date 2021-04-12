@@ -11,7 +11,7 @@ login_url = 'https://manybooks.net/mnybks-login-form'
 url = 'https://manybooks.net'
 timeout = 3
 
-driver = webdriver.Firefox(executable_path='/home/zerosec/Pictures/BookBird/geckodriver')
+driver = webdriver.Firefox(executable_path='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/geckodriver')
 driver.get(login_url)
 try:
     element_present = EC.presence_of_element_located((By.ID, 'edit-submit'))
